@@ -1,0 +1,1 @@
+repeatFunc (f) (n) = foldr (.) f (replicate (n - 1) f)
