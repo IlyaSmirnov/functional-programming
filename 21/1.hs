@@ -1,0 +1,1 @@
+tripleOdd xs = xs >>= (\x -> if (x `mod` 2 == 1) then [x, x, x] else [x])
